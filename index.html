@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum Minggu 3 - layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">Rizqy</span>
+      </div>
+
+      <ul class="navbar__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar__cta">
+        <button id="dark-toggle">☀ Light Mode</button>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <span class="hero__badge">Available for Work</span>
+
+        <h1 class="hero__title">
+          Hi, saya
+          <span class="highlight">Rizqy Aulia</span>
+          <br />
+          Web Developer
+        </h1>
+
+        <p class="hero__desc">
+          Saya membangun website yang cepat, responsif, dan tampak profesional. Mari buat sesuatu
+          yang luar biasa bersama.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+          <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section class="profile">
+      <div class="profile-card">
+        <img src="foto.jpg.jpeg" class="profile-img" />
+
+        <div class="status">
+          <span class="dot"></span>
+          Available for Work
+        </div>
+
+        <h1>Rizqy Aulia</h1>
+        <h3>Web Developer & UI Enthusiast</h3>
+
+        <p class="profile-desc">
+          Halo! Saya adalah mahasiswa Universitas Muhammadiyah Sumatera Utara Medan yang sedang belajar menjadi web developer. Saya tertarik
+          membangun website yang cepat, modern, dan responsif.
+        </p>
+
+        <div class="info-list">
+          <div class="info-item">
+            <span>🔥 Nama Lengkap</span>
+            <p>Rizqy Aulia</p>
+          </div>
+
+          <div class="info-item">
+            <span>🎓 Pendidikan</span>
+            <p>S1 Sistem Informasi (Sedang Menempuh)</p>
+          </div>
+
+          <div class="info-item">
+            <span>📍 Domisili</span>
+            <p>Medan, Sumatera Utara</p>
+          </div>
+
+          <div class="info-item">
+            <span>🎂 Angkatan</span>
+            <p>2024</p>
+          </div>
+
+          <div class="info-item">
+            <span>💼 Status</span>
+            <p>Mahasiswa</p>
+          </div>
+
+          <div class="info-item">
+            <span>🌐 Bahasa</span>
+            <p>Indonesia (Native), English (Advance)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="about">
+      <div class="container">
+        <h2 class="section-title">Keahlian Saya</h2>
+        <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+        <div class="skills__grid">
+          <div class="skill-card">
+            <div class="skill-card__icon">📄</div>
+            <h3>HTML5</h3>
+            <p>Semantic markup dan struktur dokumen yang baik.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">🎨</div>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, animasi, dan responsive design.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Membuat website menjadi interaktif.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">🔗</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control dan kolaborasi tim.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">⚙️</div>
+            <h3>React</h3>
+            <p>Framework JavaScript modern berbasis component.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">🚀</div>
+            <h3>Performance</h3>
+            <p>Optimasi kecepatan loading website.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="counter-section">
+  <h2>Berapa Kali Kamu Minum Air Hari Ini?</h2>
+  <div class="counter-container">
+    <button id="btn-kurang" class="counter-btn">−</button>
+    <span id="angka-counter">0</span>
+    <button id="btn-tambah" class="counter-btn">+</button>
+  </div>
+  <p id="counter-pesan">Yuk mulai minum air!</p>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+
+<h1>Portfolio</h1>
+<p>Beberapa project yang telah saya kerjakan</p>
+
+<div class="card">
+
+<img src="project.jpg.png" class="project-img">
+
+<div class="card-body">
+
+<h2>CRUD App</h2>
+
+<p>
+Aplikasi CRUD app sederhana
+</p>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+</section>
+
+        <section class="contact">
+          <h1 class="title">Temukan Saya</h1>
+          <p class="subtitle">Terhubung lewat platform favorit Anda</p>
+
+          <h2 class="section">📬 Kontak Pribadi</h2>
+
+          <a href="mailto:rizqyaulia400@gmail.com" class="contact-card link">
+    <span class="icon">✉️</span>
+
+    <div>
+        <p class="label">EMAIL</p>
+        <p class="value">rizqyaulia400@gmail.com</p>
+    </div>
+
+    <span class="arrow">→</span>
+</a>
+
+            <a href="https://wa.me/6285370714615" class="contact-card link" target="_blank">
+
+          <span class="icon">📱</span>
+
+            <div>
+              <p class="label">WHATSAPP</p>
+                <p class="value">+62 85370714615</p>
+                  </div>
+
+<span class="arrow">→</span>
+
+</a>
+            <div class="contact-card">
+    <span class="icon">📍</span>
+
+    <div>
+        <p class="label">LOKASI</p>
+        <p class="value">Medan, Sumatera Utara 🇮🇩</p>
+    </div>
+</div>
+
+          <h2 class="section">🌐 Media Sosial</h2>
+
+          <div class="contact-list">
+            <a href="https://github.com/rizqyaulia" class="contact-card link">
+              <span class="icon">🐙</span>
+              <div>
+                <p class="value">GitHub</p>
+                <p class="label">rizqyaulia</p>
+              </div>
+              <span class="arrow">→</span>
+            </a>
+
+            <a href="https://www.instagram.com/rizqyaulia06_" class="contact-card link" target="_blank">
+
+<span class="icon">📸</span>
+<div>
+<p class="value">Instagram</p>
+<p class="label">rizqyaulia06_</p>
+</div>
+<span class="arrow">→</span>
+
+</a>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="contact">
+          <h2>Hubungi Saya</h2>
+          <p class="contact-subtitle">Ada project? Mari diskusikan!</p>
+
+          <section class="form-section">
+              <div class="form-container">
+                <input type="text" id="input-nama" placeholder="Nama lengkap" />
+                    <input type="email" id="input-email" placeholder="Alamat email" />
+                <textarea id="input-pesan" placeholder="Pesan kamu..." rows="4"></textarea>
+              <button id="btn-kirim">Kirim Pesan</button>
+           <div id="form-feedback" class="feedback hidden"></div>
+  </div>
+</section>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__inner">
+              <span class="footer__brand">◆ Rizqy</span>
+
+              <p class="footer__copy">© 2025 Rizqy Aulia. Dibuat dengan HTML & CSS murni.</p>
+
+              <div class="footer__links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script src="script.js"></script>
+  </body>
+</html>
