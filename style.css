@@ -605,8 +605,6 @@ body {
   color: #ccc;
 }
 
-/* PORTFOLIO */
-
 .portfolio {
   text-align: center;
   padding: 60px 20px;
@@ -621,8 +619,6 @@ body {
   color: #aaa;
   margin-bottom: 40px;
 }
-
-/* CARD */
 
 .card {
   max-width: 600px;
@@ -651,8 +647,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* TAG */
-
 .tags {
   display: flex;
   gap: 10px;
@@ -666,8 +660,6 @@ body {
   border-radius: 20px;
   font-size: 14px;
 }
-
-/* BUTTON */
 
 .btn {
   display: block;
@@ -684,7 +676,6 @@ body {
   background: #00e5ff;
   color: black;
 }
-/* LIGHT MODE */
 
 .light-mode {
   background-color: white;
@@ -694,19 +685,16 @@ body {
   background: #00d2ff;
   color: white;
 }
-/* LIGHT MODE */
 
 .light-mode {
   background-color: #ffffff;
   color: #000000;
 }
 
-/* hero section */
 .light-mode .hero {
   background: linear-gradient(135deg, #ffffff, #f5f5f5, #ffffff);
 }
 
-/* teks */
 .light-mode h1,
 .light-mode h2,
 .light-mode h3 {
@@ -721,13 +709,11 @@ body {
   border: 1px solid #ddd;
 }
 
-/* text abu */
 .light-mode p,
 .light-mode .section-subtitle,
 .light-mode .subtitle {
   color: #555;
 }
-/* TOGGLE DARK / LIGHT BUTTON */
 
 #dark-toggle {
   background: linear-gradient(135deg, #22d3ee, #06b6d4);
@@ -741,25 +727,21 @@ body {
   transition: 0.3s;
 }
 
-/* hover effect */
 #dark-toggle:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(34, 211, 238, 0.5);
 }
 
-/* saat light mode */
 .light-mode #dark-toggle {
   background: linear-gradient(135deg, #0ea5e9, #38bdf8);
   color: white;
 }
-/* NAVBAR TETAP DARK */
 
 .light-mode .navbar {
   background-color: #020617;
   border-bottom: 1px solid #1e293b;
 }
 
-/* warna teks navbar tetap */
 .light-mode .navbar a {
   color: #94a3b8;
 }
@@ -807,13 +789,10 @@ body {
   background: #2e74b5;
   color: white;
 }
-/* FIX LIGHT MODE */
 
 .light-mode .contact {
   background: #ffffff;
 }
-
-/* LIGHT MODE FIX */
 
 .light-mode .profile-card {
   background: #ffffff;
@@ -832,7 +811,6 @@ body {
 .light-mode .label {
   color: #94a3b8;
 }
-/* FIX TEXT SKILLS DI LIGHT MODE */
 
 .light-mode .skill-card h3 {
   color: #ffffff;
@@ -841,7 +819,6 @@ body {
 .light-mode .skill-card p {
   color: #cbd5f5;
 }
-/* FIX TEXT PROFILE DI LIGHT MODE */
 
 .light-mode .info-item {
   background: #020617;
@@ -849,14 +826,13 @@ body {
 }
 
 .light-mode .info-item span {
-  color: #94a3b8; /* label seperti Nama Lengkap */
+  color: #94a3b8;
 }
 
 .light-mode .info-item p {
-  color: #ffffff; /* isi seperti Rizqy Aulia */
+  color: #ffffff;
   font-weight: 600;
 }
-/* FIX TEXT CONTACT DI LIGHT MODE */
 
 .light-mode .contact-card {
   background: #020617;
@@ -864,11 +840,11 @@ body {
 }
 
 .light-mode .contact-card .label {
-  color: #94a3b8; /* tulisan kecil */
+  color: #94a3b8;
 }
 
 .light-mode .contact-card .value {
-  color: #ffffff; /* isi seperti email dan WA */
+  color: #ffffff;
 }
 
 .light-mode .contact-card .arrow {
